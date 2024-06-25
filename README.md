@@ -30,7 +30,7 @@ DIM_Bike_Types
 
 DIM_Subscriber_Types
 
-![alt text](https://github.com/silviogs86/MetroBike/blob/4ee25795f1318c61d51307bc89ca911d865d3721/Pictures/1st%20part%20of%20Subscriber%20Type%20Query.png)
+![alt text](https://github.com/silviogs86/MetroBike/blob/9402e965918e61647c4f01eff9ad830b8983680a/Pictures/Subscriber%20Type%20Query%20Pt.1.png)
 
 y luego
 

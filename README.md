@@ -13,9 +13,11 @@ bikeshare_trips
 
 En el EDA, detectamos lo siguiente:
 
-Hay stations duplicadas en la tabla stations (las duplicadas estan inactive)
-En la tabla trips en las columnas de start y end station hay ids null y hay ids distintos para un mismo station name.
-En la tabla trips aparecen subscribers que no estan vigentes en el cuadro tarifario actual y no se visualiza un subscriber ID.
+*Hay stations duplicadas en la tabla stations (las duplicadas estan inactive)
+
+*En la tabla trips en las columnas de start y end station hay ids null y hay ids distintos para un mismo station name.
+
+*En la tabla trips aparecen subscribers que no estan vigentes en el cuadro tarifario actual y no se visualiza un subscriber ID.
 
 
 Como no tenemos analisis que realizar sobre las stations y la información provista no está completa, dejamos las columnas fuera del silver.

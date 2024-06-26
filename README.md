@@ -21,6 +21,7 @@ En el EDA, detectamos lo siguiente:
 1st comparison
 ![alt text](https://github.com/silviogs86/MetroBike/blob/26c0f024fd26ee965ea458fcff16b93687205fc2/Pictures/BigQuery/Stations%20EDA%20Results.png)
 ![alt text](https://github.com/silviogs86/MetroBike/blob/26c0f024fd26ee965ea458fcff16b93687205fc2/Pictures/BigQuery/Trips%20EDA%20Results.png)
+
 2nd comparison
 ![alt text](https://github.com/silviogs86/MetroBike/blob/b03fbabcd8faf9e8298b98d9d17fb50d56794b20/Pictures/BigQuery/Trips%20EDA%20Results%202.png)
 ![alt text](https://github.com/silviogs86/MetroBike/blob/b03fbabcd8faf9e8298b98d9d17fb50d56794b20/Pictures/BigQuery/Stations%20EDA%20Results2.png)

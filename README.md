@@ -27,7 +27,9 @@ En el EDA, detectamos lo siguiente:
 ![alt text](https://github.com/silviogs86/MetroBike/blob/b03fbabcd8faf9e8298b98d9d17fb50d56794b20/Pictures/BigQuery/Trips%20EDA%20Results%202.png)![alt text](https://github.com/silviogs86/MetroBike/blob/b03fbabcd8faf9e8298b98d9d17fb50d56794b20/Pictures/BigQuery/Stations%20EDA%20Results2.png)
 
 *En la tabla trips en las columnas de start y end station hay ids null y hay ids distintos para un mismo name.
+
 <b>Start Stations</b>
+
 ![alt text](https://github.com/silviogs86/MetroBike/blob/a7fe356370e02588df901bf643cf738b5650ec0d/Pictures/BigQuery/Trips%20EDA%20IDs.png)
 
 ![alt text](https://github.com/silviogs86/MetroBike/blob/a7fe356370e02588df901bf643cf738b5650ec0d/Pictures/BigQuery/Trips%20ID%20EDA%20Results.png)
@@ -37,6 +39,7 @@ En el EDA, detectamos lo siguiente:
 ![alt text](https://github.com/silviogs86/MetroBike/blob/a7fe356370e02588df901bf643cf738b5650ec0d/Pictures/BigQuery/Trips%20ID%20EDA%20Results3.png)
 
 <b>End Stations</b>
+
 ![alt text](https://github.com/silviogs86/MetroBike/blob/a7fe356370e02588df901bf643cf738b5650ec0d/Pictures/BigQuery/Trips%20EDA%202%20IDs.png)
 
 ![alt text](https://github.com/silviogs86/MetroBike/blob/a7fe356370e02588df901bf643cf738b5650ec0d/Pictures/BigQuery/Trips2%20IDs%20results.png)

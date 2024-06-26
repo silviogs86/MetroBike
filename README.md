@@ -16,19 +16,43 @@ El Plan de metricas es el siguiente:
 
 En el EDA, detectamos lo siguiente:
 
-*Hay stations duplicadas en la tabla stations (las duplicadas estan inactive)
+*Hay stations duplicadas en la tabla trips con distintos caracteres vs la tabla stations
+![alt text](https://github.com/silviogs86/MetroBike/blob/26c0f024fd26ee965ea458fcff16b93687205fc2/Pictures/BigQuery/Stations%20EDA.png)
+1st comparison
+![alt text](https://github.com/silviogs86/MetroBike/blob/26c0f024fd26ee965ea458fcff16b93687205fc2/Pictures/BigQuery/Stations%20EDA%20Results.png)
+![alt text](https://github.com/silviogs86/MetroBike/blob/26c0f024fd26ee965ea458fcff16b93687205fc2/Pictures/BigQuery/Trips%20EDA%20Results.png)
+2nd comparison
+![alt text](https://github.com/silviogs86/MetroBike/blob/b03fbabcd8faf9e8298b98d9d17fb50d56794b20/Pictures/BigQuery/Trips%20EDA%20Results%202.png)
+![alt text](https://github.com/silviogs86/MetroBike/blob/b03fbabcd8faf9e8298b98d9d17fb50d56794b20/Pictures/BigQuery/Stations%20EDA%20Results2.png)
 
-*En la tabla trips en las columnas de start y end station hay ids null y hay ids distintos para un mismo station name.
+*En la tabla trips en las columnas de start y end station hay ids null y hay ids distintos para un mismo name.
+<b>Start Stations</b>
+![alt text](https://github.com/silviogs86/MetroBike/blob/a7fe356370e02588df901bf643cf738b5650ec0d/Pictures/BigQuery/Trips%20EDA%20IDs.png)
+
+![alt text](https://github.com/silviogs86/MetroBike/blob/a7fe356370e02588df901bf643cf738b5650ec0d/Pictures/BigQuery/Trips%20ID%20EDA%20Results.png)
+
+![alt text](https://github.com/silviogs86/MetroBike/blob/a7fe356370e02588df901bf643cf738b5650ec0d/Pictures/BigQuery/Trips%20ID%20EDA%20Results2.png)
+
+![alt text](https://github.com/silviogs86/MetroBike/blob/a7fe356370e02588df901bf643cf738b5650ec0d/Pictures/BigQuery/Trips%20ID%20EDA%20Results3.png)
+
+<b>End Stations</b>
+![alt text](https://github.com/silviogs86/MetroBike/blob/a7fe356370e02588df901bf643cf738b5650ec0d/Pictures/BigQuery/Trips%20EDA%202%20IDs.png)
+
+![alt text](https://github.com/silviogs86/MetroBike/blob/a7fe356370e02588df901bf643cf738b5650ec0d/Pictures/BigQuery/Trips2%20IDs%20results.png)
+
+![alt text](https://github.com/silviogs86/MetroBike/blob/a7fe356370e02588df901bf643cf738b5650ec0d/Pictures/BigQuery/Trips2%20IDs%20results2.png)
 
 *En la tabla trips aparecen subscribers que no estan vigentes en el cuadro tarifario actual y no se visualiza un subscriber ID.
+![alt text](https://github.com/silviogs86/MetroBike/blob/6a0ffd29481e009b31aeb1939c7b01b1c2862abf/Pictures/BigQuery/Subscribers%20EDA.png)
+![alt text](https://github.com/silviogs86/MetroBike/blob/b03fbabcd8faf9e8298b98d9d17fb50d56794b20/Pictures/BigQuery/Subscribers%20EDA%20Results.png)
 
 
 Como no tenemos analisis que realizar sobre las stations y la información provista no está completa, dejamos las columnas fuera del silver.
 
 Las tablas que vamos a necesitar serían:
-FACT_Trips
 DIM_Bike_Types
 DIM_Subscriber_Types
+FACT_Trips
 
 Las queries serían
 
@@ -67,7 +91,8 @@ y luego
 
 Dentro de power BI realizamos las siguientes transformaciones:
 
-Power Query
+<b>Power Query</b>
+
 1 En la Tabla AB_PassPrices poner "|" entre el plan name y la descripción y los montos
 ![alt text](https://github.com/silviogs86/MetroBike/blob/3397867687742203da239e114d83f19f516036c0/Pictures/PowerBi/PowerQuery%201.png)
 
@@ -87,6 +112,7 @@ https://austin.bcycle.com/houston-tillotson-university
 ![alt text](https://github.com/silviogs86/MetroBike/blob/3397867687742203da239e114d83f19f516036c0/Pictures/PowerBi/PowerQuery%205.png)
 
 <b>Dax</b>
+
 6 Crear una tabla calendario
 ![alt text](https://github.com/silviogs86/MetroBike/blob/3397867687742203da239e114d83f19f516036c0/Pictures/PowerBi/Dax%206.png)
 

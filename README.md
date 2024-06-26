@@ -86,12 +86,12 @@ https://austin.bcycle.com/houston-tillotson-university
 5 Mergear tabla con tabla DIM_Subscriber_Types para tener junto al ID los montos de plan y surplus
 ![alt text](https://github.com/silviogs86/MetroBike/blob/3397867687742203da239e114d83f19f516036c0/Pictures/PowerBi/PowerQuery%205.png)
 
-Dax
+<b>Dax</b>
 6 Crear una tabla calendario
 ![alt text](https://github.com/silviogs86/MetroBike/blob/3397867687742203da239e114d83f19f516036c0/Pictures/PowerBi/Dax%206.png)
 
 7 Crear una tabla de horas
-![alt text](https://github.com/silviogs86/MetroBike/blob/3397867687742203da239e114d83f19f516036c0/Pictures/PowerBi/Dax%207.png)
+![alt text](https://gitshub.com/silviogs86/MetroBike/blob/3397867687742203da239e114d83f19f516036c0/Pictures/PowerBi/Dax%207.png)
 
 8 Agregar a tabla FACT_Trips las columnas FactDate, TripHour y SurplusFee
 ![alt text](https://github.com/silviogs86/MetroBike/blob/3397867687742203da239e114d83f19f516036c0/Pictures/PowerBi/Dax%208a.png)

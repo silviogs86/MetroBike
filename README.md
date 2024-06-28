@@ -16,7 +16,7 @@ Trabajo Final EDVai - Data Analyst BootCamp - Junio 2024.
 
 
 
-## Fuentes <a name="Fuentes"></a> [↩](#table-of-contents)
+## Fuentes [↩](#table-of-contents)
 
 <b>Bigquery</b>
 Se utilizó el Public Dataset austin_bikeshare de los datasets publicos de BigQuery

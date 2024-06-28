@@ -97,7 +97,9 @@ Como no tenemos analisis que realizar sobre las stations y la información provi
 
 Las tablas que vamos a necesitar serían:
 DIM_Bike_Types
+
 DIM_Subscriber_Types
+
 FACT_Trips
 
 
@@ -142,6 +144,7 @@ La tabla de montos de los pases de la web https://austin.bcycle.com/passes
 ![alt text](https://github.com/silviogs86/MetroBike/blob/463124e913d7a2bf4a7858ece4803471f97a01aa/Pictures/Web%20to%20PowerBi%20pt1.png)
 
 y luego
+
 ![alt text](https://github.com/silviogs86/MetroBike/blob/463124e913d7a2bf4a7858ece4803471f97a01aa/Pictures/Web%20to%20PowerBi%20pt2.png)
 
 Dentro de power BI realizamos las siguientes transformaciones:

@@ -13,6 +13,7 @@ Trabajo Final EDVai - Data Analyst BootCamp - Junio 2024.
   - [BigQuery](#bigquery)
   - [PowerBi](#powerbi)
 - [Comprobación de Hipótesis](#comprobación-de-hipótesis)
+- [Links](#Links)
 
 
 
@@ -35,7 +36,7 @@ Utilizaremos la página de MetroBike: https://austin.bcycle.com/passes
 El Plan de metricas es el siguiente:
 ![alt text](https://github.com/silviogs86/MetroBike/blob/aab5839099565b4093da3bcc2f246618ed88e12e/Pictures/Plan%20De%20Metricas.png)
 
-Link: https://docs.google.com/spreadsheets/d/1w6sxddYLm-WwrIuhsbntgmVx5Utpo9LNyN_dhmUGgV8/edit?gid=906195733#gid=906195733
+
 
 ## Hipótesis 
 
@@ -183,7 +184,6 @@ https://austin.bcycle.com/houston-tillotson-university
 Estructura final de PowerBi
 ![alt text](https://github.com/silviogs86/MetroBike/blob/3397867687742203da239e114d83f19f516036c0/Pictures/PowerBi/Estructura%20PBI.png)
 
-Link to pbix: https://1drv.ms/f/s!AkfPVJizTvY_hkV4DP0tGVoy52PB?e=cSRGK5
 
 ## Comprobación de Hipótesis
 <b>Hipótesis 1:</b>
@@ -211,3 +211,9 @@ Los planes universitarios tienen un uso marginal dentro de la plataforma.
 El Plan sin cargo (HT) tiene un uso minimo, pero el plan de $12 al año (U.T.) es:
 - el segundo plan con mayor cantidad de viajes detras de Local365.
 - el tercer plan en cantidad de viajes surplus.
+
+
+## Links
+Link a plan de metricas: https://docs.google.com/spreadsheets/d/1w6sxddYLm-WwrIuhsbntgmVx5Utpo9LNyN_dhmUGgV8/edit?gid=906195733#gid=906195733
+Link to pbix: https://1drv.ms/f/s!AkfPVJizTvY_hkV4DP0tGVoy52PB?e=cSRGK5
+Link al reporte: https://app.powerbi.com/view?r=eyJrIjoiOWEwZTc1YTYtMGU4MC00YjlkLWIzNWMtMzE2YWNlZThhMTlmIiwidCI6IjNmN2FlM2QzLTYyN2ItNDJmMS1hMjU5LTE5ZmMyMGM4MGZlYSIsImMiOjR9

@@ -181,7 +181,7 @@ https://austin.bcycle.com/houston-tillotson-university
 Estructura final de PowerBi
 ![alt text](https://github.com/silviogs86/MetroBike/blob/3397867687742203da239e114d83f19f516036c0/Pictures/PowerBi/Estructura%20PBI.png)
 
-## Comprobación de Hipótesis [↩](#table-of-contents)
+## Comprobación de Hipótesis
 <b>Hipótesis 1:</b>
 Se utilizan más bicicletas eléctricas que comunes.
 <b>Resultado</b>

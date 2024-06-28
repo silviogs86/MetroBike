@@ -34,7 +34,7 @@ Utilizaremos la página de MetroBike: https://austin.bcycle.com/passes
 
 ## Plan de Métricas
 El Plan de metricas es el siguiente:
-![alt text](https://github.com/silviogs86/MetroBike/blob/aab5839099565b4093da3bcc2f246618ed88e12e/Pictures/Plan%20De%20Metricas.png)
+![alt text](https://github.com/silviogs86/MetroBike/blob/88fae7a832c76871894e4914f7971fa7fdea4d3e/Pictures/PlanMetricas.png)
 
 
 

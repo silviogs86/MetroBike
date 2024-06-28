@@ -58,6 +58,7 @@ En el EDA, detectamos lo siguiente:
 ![alt text](https://github.com/silviogs86/MetroBike/blob/26c0f024fd26ee965ea458fcff16b93687205fc2/Pictures/BigQuery/Stations%20EDA.png)
 
 <b>1st comparison</b>
+
 ![alt text](https://github.com/silviogs86/MetroBike/blob/26c0f024fd26ee965ea458fcff16b93687205fc2/Pictures/BigQuery/Stations%20EDA%20Results.png)
 ![alt text](https://github.com/silviogs86/MetroBike/blob/26c0f024fd26ee965ea458fcff16b93687205fc2/Pictures/BigQuery/Trips%20EDA%20Results.png)
 
@@ -86,6 +87,7 @@ En el EDA, detectamos lo siguiente:
 ![alt text](https://github.com/silviogs86/MetroBike/blob/a7fe356370e02588df901bf643cf738b5650ec0d/Pictures/BigQuery/Trips2%20IDs%20results2.png)
 
 *En la tabla trips aparecen subscribers que no estan vigentes en el cuadro tarifario actual y no se visualiza un subscriber ID.
+
 ![alt text](https://github.com/silviogs86/MetroBike/blob/6a0ffd29481e009b31aeb1939c7b01b1c2862abf/Pictures/BigQuery/Subscribers%20EDA.png)
 ![alt text](https://github.com/silviogs86/MetroBike/blob/b03fbabcd8faf9e8298b98d9d17fb50d56794b20/Pictures/BigQuery/Subscribers%20EDA%20Results.png)
 
@@ -181,24 +183,30 @@ https://austin.bcycle.com/houston-tillotson-university
 Estructura final de PowerBi
 ![alt text](https://github.com/silviogs86/MetroBike/blob/3397867687742203da239e114d83f19f516036c0/Pictures/PowerBi/Estructura%20PBI.png)
 
+Link to pbix: https://1drv.ms/f/s!AkfPVJizTvY_hkV4DP0tGVoy52PB?e=cSRGK5
+
 ## Comprobación de Hipótesis
 <b>Hipótesis 1:</b>
 Se utilizan más bicicletas eléctricas que comunes.
+
 <b>Resultado</b>
 De la totalidad de viajes, el 67% se realizó con biciletas comunes, pero a partir de 2020 la cantidad de usos de bicicleta electrica ha subido, en detrimento de la bicicleta clasica. En conclusión historicamente se han utilizado más clasicas, pero de 2020 a el día de hoy, el uso de bicileta electrica va en aumento
 
 <b>Hipótesis 2:</b>
 En primavera y verano hay más demanda de uso de bicicletas.
+
 <b>Resultado</b>
 Viendo el historico de viajes en la hoja "Usage" comprobamos que se usan más bicicletas en primavera y otoño, ocupando el verano un 3er lugar por una diferencia de 47 mil viajes.
 
 <b>Hipótesis 3:</b>
 Los planes cortos (explorer y 3day) tienen menos surplus que los 30 y 365.
+
 <b>Resultado</b>
 Al contrario de lo que uno podría creer los planes de menor duración tienen más surplus. Explorer y 3Day tienen un 45% de los viajes surplus. El 75% del surplus de los planes tradicionales, está concentrado en los planes de corta duración (pay as you ride, explorer y 3day)
 
 <b>Hipótesis 4:</b>
 Los planes universitarios tienen un uso marginal dentro de la plataforma.
+
 <b>Resultado</b>
 El Plan sin cargo (HT) tiene un uso minimo, pero el plan de $12 al año (U.T.) es:
 - el segundo plan con mayor cantidad de viajes detras de Local365.

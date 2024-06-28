@@ -1,22 +1,22 @@
 # MetroBike
 Trabajo Final EDVai - Data Analyst BootCamp - Junio 2024.
 
-## Table of Contents <a name="table-of-contents"></a>
+## Table of Contents
 
-- [Fuentes de Datos](#fuentes)
-- [Plan de Metricas](#plan-de-metricas)
-- [Hipotesis](#hipotesis)
-- [EDA](#EDA)
+- [Fuentes de Datos](#fuentes-de-datos)
+- [Plan de Métricas](#plan-de-métricas)
+- [Hipótesis](#hipótesis)
+- [EDA](#eda)
 - [Modelo de Datos](#modelo-de-datos)
-- [Transformacion y Carga de datos](#Transformacion-y-carga-de-datos)
-  - [DataFlow](#DataFlow)
-  - [BigQuery](#BigQuery)
-  - [PowerBi](#PowerBi)
-- [Comprobación hipotesis](#comprobacion-de-hipotesis)
+- [Transformación y Carga de datos](#transformación-y-carga-de-datos)
+  - [DataFlow](#dataflow)
+  - [BigQuery](#bigquery)
+  - [PowerBi](#powerbi)
+- [Comprobación de Hipótesis](#comprobación-de-hipótesis)
 
 
 
-## Fuentes [↩](#table-of-contents)
+## Fuentes de Datos [↩](#table-of-contents)
 
 <b>Bigquery</b>
 Se utilizó el Public Dataset austin_bikeshare de los datasets publicos de BigQuery
@@ -31,13 +31,13 @@ bikeshare_trips
 <b>Página Web</b>
 Utilizaremos la página de MetroBike: https://austin.bcycle.com/passes
 
-## Plan de metricas [↩](#table-of-contents)
+## Plan de Métricas [↩](#table-of-contents)
 El Plan de metricas es el siguiente:
 ![alt text](https://github.com/silviogs86/MetroBike/blob/aab5839099565b4093da3bcc2f246618ed88e12e/Pictures/Plan%20De%20Metricas.png)
 
 Link: https://docs.google.com/spreadsheets/d/1w6sxddYLm-WwrIuhsbntgmVx5Utpo9LNyN_dhmUGgV8/edit?gid=906195733#gid=906195733
 
-## Hipotesis [↩](#table-of-contents)
+## Hipótesis [↩](#table-of-contents)
 
 <b>Hipótesis 1:</b>
 Se utilizan más bicicletas eléctricas que comunes.
@@ -51,7 +51,7 @@ Los planes cortos (explorer y 3day) tienen menos surplus que los 30 y 365.
 <b>Hipótesis 4:</b>
 Los planes universitarios tienen un uso marginal dentro de la plataforma.
 
-## EDA  [↩](#table-of-contents)
+## EDA [↩](#table-of-contents)
 En el EDA, detectamos lo siguiente:
 
 *Hay stations duplicadas en la tabla trips con distintos caracteres vs la tabla stations
@@ -89,7 +89,7 @@ En el EDA, detectamos lo siguiente:
 ![alt text](https://github.com/silviogs86/MetroBike/blob/6a0ffd29481e009b31aeb1939c7b01b1c2862abf/Pictures/BigQuery/Subscribers%20EDA.png)
 ![alt text](https://github.com/silviogs86/MetroBike/blob/b03fbabcd8faf9e8298b98d9d17fb50d56794b20/Pictures/BigQuery/Subscribers%20EDA%20Results.png)
 
-## Modelo de datos [↩](#table-of-contents)
+## Modelo de Datos [↩](#table-of-contents)
 Como no tenemos analisis que realizar sobre las stations y la información provista no está completa, dejamos las columnas fuera del silver.
 
 Las tablas que vamos a necesitar serían:
@@ -100,9 +100,9 @@ FACT_Trips
 
 ![alt text](https://github.com/silviogs86/MetroBike/blob/42cb5575b212552d03a77701bc0532265ae6f9f7/Pictures/Austin-Bikes.png)
 
-## Transformacion y Carga de datos <a name="Transformacion y carga de datos"></a> [↩](#table-of-contents)
+## Transformación y Carga de datos [↩](#table-of-contents)
 
-### DataFlow
+### DataFlow [↩](#table-of-contents)
 El flujo de datos queda definido de la siguiente manera
 ![alt text](https://github.com/silviogs86/MetroBike/blob/42cb5575b212552d03a77701bc0532265ae6f9f7/Pictures/Opciones%20de%20flujo.jpg)
 
@@ -181,7 +181,7 @@ https://austin.bcycle.com/houston-tillotson-university
 Estructura final de PowerBi
 ![alt text](https://github.com/silviogs86/MetroBike/blob/3397867687742203da239e114d83f19f516036c0/Pictures/PowerBi/Estructura%20PBI.png)
 
-## Comprobacion de hipotesis [↩](#table-of-contents)
+## Comprobación de Hipótesis [↩](#table-of-contents)
 <b>Hipótesis 1:</b>
 Se utilizan más bicicletas eléctricas que comunes.
 <b>Resultado</b>

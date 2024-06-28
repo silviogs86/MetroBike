@@ -102,7 +102,7 @@ FACT_Trips
 
 ## Transformacion y Carga de datos <a name="Transformacion y carga de datos"></a> [↩](#table-of-contents)
 
-### DataFlow [↩](#table-of-contents)
+### DataFlow
 El flujo de datos queda definido de la siguiente manera
 ![alt text](https://github.com/silviogs86/MetroBike/blob/42cb5575b212552d03a77701bc0532265ae6f9f7/Pictures/Opciones%20de%20flujo.jpg)
 

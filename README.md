@@ -16,7 +16,7 @@ Trabajo Final EDVai - Data Analyst BootCamp - Junio 2024.
 
 
 
-## Fuentes de Datos [↩](#table-of-contents)
+## Fuentes de Datos
 
 <b>Bigquery</b>
 Se utilizó el Public Dataset austin_bikeshare de los datasets publicos de BigQuery
@@ -31,13 +31,13 @@ bikeshare_trips
 <b>Página Web</b>
 Utilizaremos la página de MetroBike: https://austin.bcycle.com/passes
 
-## Plan de Métricas [↩](#table-of-contents)
+## Plan de Métricas
 El Plan de metricas es el siguiente:
 ![alt text](https://github.com/silviogs86/MetroBike/blob/aab5839099565b4093da3bcc2f246618ed88e12e/Pictures/Plan%20De%20Metricas.png)
 
 Link: https://docs.google.com/spreadsheets/d/1w6sxddYLm-WwrIuhsbntgmVx5Utpo9LNyN_dhmUGgV8/edit?gid=906195733#gid=906195733
 
-## Hipótesis [↩](#table-of-contents)
+## Hipótesis 
 
 <b>Hipótesis 1:</b>
 Se utilizan más bicicletas eléctricas que comunes.
@@ -51,7 +51,7 @@ Los planes cortos (explorer y 3day) tienen menos surplus que los 30 y 365.
 <b>Hipótesis 4:</b>
 Los planes universitarios tienen un uso marginal dentro de la plataforma.
 
-## EDA [↩](#table-of-contents)
+## EDA 
 En el EDA, detectamos lo siguiente:
 
 *Hay stations duplicadas en la tabla trips con distintos caracteres vs la tabla stations
@@ -89,7 +89,7 @@ En el EDA, detectamos lo siguiente:
 ![alt text](https://github.com/silviogs86/MetroBike/blob/6a0ffd29481e009b31aeb1939c7b01b1c2862abf/Pictures/BigQuery/Subscribers%20EDA.png)
 ![alt text](https://github.com/silviogs86/MetroBike/blob/b03fbabcd8faf9e8298b98d9d17fb50d56794b20/Pictures/BigQuery/Subscribers%20EDA%20Results.png)
 
-## Modelo de Datos [↩](#table-of-contents)
+## Modelo de Datos
 Como no tenemos analisis que realizar sobre las stations y la información provista no está completa, dejamos las columnas fuera del silver.
 
 Las tablas que vamos a necesitar serían:
@@ -100,14 +100,14 @@ FACT_Trips
 
 ![alt text](https://github.com/silviogs86/MetroBike/blob/42cb5575b212552d03a77701bc0532265ae6f9f7/Pictures/Austin-Bikes.png)
 
-## Transformación y Carga de datos [↩](#table-of-contents)
+## Transformación y Carga de datos 
 
-### DataFlow [↩](#table-of-contents)
+### DataFlow 
 El flujo de datos queda definido de la siguiente manera
 ![alt text](https://github.com/silviogs86/MetroBike/blob/42cb5575b212552d03a77701bc0532265ae6f9f7/Pictures/Opciones%20de%20flujo.jpg)
 
 
-### BigQuery [↩](#table-of-contents)
+### BigQuery 
 
 Las queries serían
 
@@ -128,7 +128,7 @@ FACT_Trips
 ![alt text](https://github.com/silviogs86/MetroBike/blob/4ee25795f1318c61d51307bc89ca911d865d3721/Pictures/Query%20For%20Trips%20Table.png)
 
 
-### PowerBi [↩](#table-of-contents)
+### PowerBi 
 
 Luego subimos la información a Power BI
 

@@ -87,19 +87,16 @@ En el EDA, detectamos lo siguiente:
 
 ![alt text](https://github.com/silviogs86/MetroBike/blob/a7fe356370e02588df901bf643cf738b5650ec0d/Pictures/BigQuery/Trips2%20IDs%20results2.png)
 
-*En la tabla trips aparecen subscribers que no estan vigentes en el cuadro tarifario actual y no se visualiza un subscriber ID.
-
-![alt text](https://github.com/silviogs86/MetroBike/blob/6a0ffd29481e009b31aeb1939c7b01b1c2862abf/Pictures/BigQuery/Subscribers%20EDA.png)
+*En la tabla trips aparecen subscribers que no estan vigentes en el cuadro tarifario actual y no se visualiza un subscriber ID.<br>
+![alt text](https://github.com/silviogs86/MetroBike/blob/6a0ffd29481e009b31aeb1939c7b01b1c2862abf/Pictures/BigQuery/Subscribers%20EDA.png)<br>
 ![alt text](https://github.com/silviogs86/MetroBike/blob/b03fbabcd8faf9e8298b98d9d17fb50d56794b20/Pictures/BigQuery/Subscribers%20EDA%20Results.png)
 
 ## Modelo de Datos
 Como no tenemos analisis que realizar sobre las stations y la información provista no está completa, dejamos las columnas fuera del silver.
 
-Las tablas que vamos a necesitar serían:
-DIM_Bike_Types
-
-DIM_Subscriber_Types
-
+Las tablas que vamos a necesitar serían:<br>
+DIM_Bike_Types<br>
+DIM_Subscriber_Types<br>
 FACT_Trips
 
 
@@ -116,20 +113,16 @@ El flujo de datos queda definido de la siguiente manera
 
 Las queries serían
 
-DIM_Bike_Types
-
+DIM_Bike_Types<br>
 ![alt text](https://github.com/silviogs86/MetroBike/blob/4ee25795f1318c61d51307bc89ca911d865d3721/Pictures/Query%20For%20Bike%20Types%20Table.png)
 
-DIM_Subscriber_Types
-
+DIM_Subscriber_Types<br>
 ![alt text](https://github.com/silviogs86/MetroBike/blob/9402e965918e61647c4f01eff9ad830b8983680a/Pictures/Subscriber%20Type%20Query%20Pt.1.png)
 
-y luego
-
+y luego<br>
 ![alt text](https://github.com/silviogs86/MetroBike/blob/42cb5575b212552d03a77701bc0532265ae6f9f7/Pictures/Subscriber%20Type%20Query%20Pt.2.png)
 
-FACT_Trips
-
+FACT_Trips<br>
 ![alt text](https://github.com/silviogs86/MetroBike/blob/4ee25795f1318c61d51307bc89ca911d865d3721/Pictures/Query%20For%20Trips%20Table.png)
 
 
@@ -174,8 +167,8 @@ https://austin.bcycle.com/houston-tillotson-university
 6 Crear una tabla calendario
 ![alt text](https://github.com/silviogs86/MetroBike/blob/3397867687742203da239e114d83f19f516036c0/Pictures/PowerBi/Dax%206.png)
 
-7 Crear una tabla de horas
-![alt text](https://gitshub.com/silviogs86/MetroBike/blob/3397867687742203da239e114d83f19f516036c0/Pictures/PowerBi/Dax%207.png)
+7 Crear una tabla de horas<br>
+![alt text](https://github.com/silviogs86/MetroBike/blob/e9c38720cab71030b68a2634dabdd30914b18dd2/Pictures/PowerBi/Dax%207.png)
 
 8 Agregar a tabla FACT_Trips las columnas FactDate, TripHour y SurplusFee
 ![alt text](https://github.com/silviogs86/MetroBike/blob/3397867687742203da239e114d83f19f516036c0/Pictures/PowerBi/Dax%208a.png)

@@ -278,4 +278,4 @@ El Plan sin cargo (HT) tiene un uso minimo, pero el plan de $12 al año (U.T.) e
 
 [Link al pbix](https://1drv.ms/f/s!AkfPVJizTvY_hkV4DP0tGVoy52PB?e=cSRGK5)
 
-[Link al reporte](https://app.powerbi.com/view?r=eyJrIjoiOWEwZTc1YTYtMGU4MC00YjlkLWIzNWMtMzE2YWNlZThhMTlmIiwidCI6IjNmN2FlM2QzLTYyN2ItNDJmMS1hMjU5LTE5ZmMyMGM4MGZlYSIsImMiOjR9)
+[Link al reporte](https://app.powerbi.com/view?r=eyJrIjoiOWEwZTc1YTYtMGU4MC00YjlkLWIzNWMtMzE2YWNlZThhMTlmIiwidCI6IjNmN2FlM2QzLTYyN2ItNDJmMS1hMjU5LTE5ZmMyMGM4MGZlYSIsImMiOjR9&pageName=ReportSection01ecdbea88e19d749646)

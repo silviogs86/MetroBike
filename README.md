@@ -12,6 +12,7 @@ Trabajo Final EDVai - Data Analyst BootCamp - Junio 2024.
   - [DataFlow](#dataflow)
   - [BigQuery](#bigquery)
   - [PowerBi](#powerbi)
+- [Desarrollo dashboards](#Desarrollo-dashboards)
 - [Comprobación de Hipótesis](#comprobación-de-hipótesis)
 - [Links](#Links)
 
@@ -179,6 +180,71 @@ https://austin.bcycle.com/houston-tillotson-university
 
 Estructura final de PowerBi
 ![alt text](https://github.com/silviogs86/MetroBike/blob/3397867687742203da239e114d83f19f516036c0/Pictures/PowerBi/Estructura%20PBI.png)
+
+## Desarrollo dashboards
+
+El desarrollo de los dashboards se realizó de la siguiente manera:<br>
+
+Portada: Modificamos el fondo del canva utilizando el color oficial de la web de Metrobike. y pusimos los tres iconos que llevan cada uno a su respectiva página
+![alt text](https://github.com/silviogs86/MetroBike/blob/27a1f6f53d1268153b336eeba78296adf92332f6/Pictures/PowerBi/Dashboard/Cover.png)
+
+Usage: El objetivo de este dashboard es brindar respuestas a las metricas #1 (Viajes por plan) y #2 (Estacionalidad) de ventas y #1 (Tipo de bicicletas) de Operaciones<br>
+En primer lugar setee los filtros de información:<br>
+2 Treemap<br>
+Tipo de Bicicleta<br>
+Estación del año<br>
+4 filtros<br>
+Tipo de Plan<br>
+Año<br>
+Mes<br>
+Feriado<br>
+
+En segundo lugar setee las visualizaciones, decidí poner lo siguiente:<br>
+2 Cards<br>
+2 Bar Chart<br>
+1 Pie Chart<br>
+
+En los cards mostrar el total de los viajes y el total del año pasado para poder ver tendencia:<br>
+
+En los bar chart las cantidades de viajes por hora y por Mes-Año (elegi poner como mes-año y no solo mes para que se vea a simple vista del grafico en que año se esta observando)<br>
+
+En el pie chart las distribución del total de viajes en 3 grandes categorías:<br>
+Menos de 60 minutos<br>
+Más de 60 minutos y menos de 24 horas<br>
+Más de 24 horas<br>
+
+![alt text](https://github.com/silviogs86/MetroBike/blob/27a1f6f53d1268153b336eeba78296adf92332f6/Pictures/PowerBi/Dashboard/Usage.png)<br>
+![alt text](https://github.com/silviogs86/MetroBike/blob/27a1f6f53d1268153b336eeba78296adf92332f6/Pictures/PowerBi/Dashboard/Usage%20Filters.png)<br>
+![alt text](https://github.com/silviogs86/MetroBike/blob/27a1f6f53d1268153b336eeba78296adf92332f6/Pictures/PowerBi/Dashboard/Usage%20charts%201.png)<br>
+![alt text](https://github.com/silviogs86/MetroBike/blob/27a1f6f53d1268153b336eeba78296adf92332f6/Pictures/PowerBi/Dashboard/Usage%20charts%202.png)<br>
+
+Regular plans & college<br>
+Para estos dashboards utilice la misma logica, la unica diferencia es que en Regular Plans puse un filtro de página para que no cuente los planes universitarios (HT y UT) y en College para que no cuente los planes de regular (pay, 3day,explorer, local 30 y local 365.<br>.
+![alt text](https://github.com/silviogs86/MetroBike/blob/27a1f6f53d1268153b336eeba78296adf92332f6/Pictures/PowerBi/Dashboard/Page%20Filter.png)<br>
+El objetivo de regular plans, es dar respuesta a la metrica "Surplus por plan" y el de college a la metrica "Performance..."<br>
+
+Los filtros fueron reutilizados de Usage:<br>
+2 treemap<br>
+3 filtros<br>
+Las visuales elegidas son:<br>
+2 pie chart<br>
+2 clustered bar chart (horizontal)<br>
+1 card<br>
+
+La card con el total para que al ver distintos valores no sea necesario hacer la cuenta, siempre va a mostrar el total de los valores seleccionados.<br>
+Los pie chart los utilicé para graficar los totales de cantidad de viajes y monto generado en surplus. Decidí utilizar el grafico de barras horizontal para los promedios porque me parece que confunde visualmente poner el mismo grafico para todo.
+
+![alt text](https://github.com/silviogs86/MetroBike/blob/27a1f6f53d1268153b336eeba78296adf92332f6/Pictures/PowerBi/Dashboard/Plans%20%26%20college.png)<br>
+![alt text](https://github.com/silviogs86/MetroBike/blob/27a1f6f53d1268153b336eeba78296adf92332f6/Pictures/PowerBi/Dashboard/Plans%20%26%20college%20charts%201.png)<br>
+![alt text](https://github.com/silviogs86/MetroBike/blob/27a1f6f53d1268153b336eeba78296adf92332f6/Pictures/PowerBi/Dashboard/Plans%20%26%20college%20charts%202.png)<br>
+![alt text](https://github.com/silviogs86/MetroBike/blob/27a1f6f53d1268153b336eeba78296adf92332f6/Pictures/PowerBi/Dashboard/Usage%20charts%202.png)<br>
+
+
+Navegación reporte
+Para la navegación del reporte utilizamos los 3 iconos de la portada y el logotipo de metrobike.
+![alt text](https://github.com/silviogs86/MetroBike/blob/27a1f6f53d1268153b336eeba78296adf92332f6/Pictures/PowerBi/Dashboard/Navigation.png9}
+El logotipo actúa como home, los iconos para navegar dentro del reporte, para marcar que estamos en una página determinada dejamos el icono correspondiente con fondo blanco
+
 
 
 ## Comprobación de Hipótesis
